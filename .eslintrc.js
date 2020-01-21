@@ -8,7 +8,8 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'standard'
+    'prettier/@typescript-eslint',
+    'standard',
   ],
   globals: {
     Atomics: 'readonly',
